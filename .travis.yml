@@ -7,5 +7,3 @@ before_install:
 
 script:
     - docker run -e CI=true kunalseth/docker-react npm run test
-
-    language: generic
